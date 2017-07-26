@@ -1,0 +1,16 @@
+*{border: 1px dotted green;}
+
+
+
+div {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+body {
+	font-family: 'Bellefair', serif;
+	font-size: 30px;
+	/*background: url('../images/stripes.png');
+	background-size: 1920px;*/
+
+}
+
