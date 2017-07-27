@@ -3,7 +3,7 @@
 
 
 div {
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 10px 10px 10px #888888;
 }
 
 body {
@@ -14,3 +14,4 @@ body {
 
 }
 
+/* put a border around the created gif images fo you can differentiate the rating/gif combos
