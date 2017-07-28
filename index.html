@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Politi-GIF Search</title>
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="img/png" href="images/flag.png">
 		<!-- Google Fonts link -->
 		<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
 		<!-- link to custom stylesheet  -->
@@ -11,31 +13,29 @@
 		<!-- link to jQuery -->
 		<script src="https://code.jquery.com/jquery.js"></script>
 	</head>
-	<body>
-
-		<nav>Politi-GIF Search</nav>
-		
-		<div class="top-box">
-			<div class="left-box">
-				<p>Click on a politician below to see some GIFs...</p>
-				<div class="btn-display"></div>
-			</div>
-			<div class="right-box">
-				<p>...or add your most/least favorite politician!</p>
-				<form class="user-form">
-				<label for="entry-form">Enter a Politician's Name:</label></form><br>
-				<input type="text" class="entry-form" placeholder="Peter Politique"><br>
-				<input class="submit-btn" type="submit" value="Add to the list!">
-				</form>
-			</div>
-		</div>
-
-		<div class="bottom-box">
-			<p class="search-title">GIF Display</p>
-			<div class="gif-display"></div>
-		</div>
 	
-
+	<body>
+	<header>Politi-GIF</header>
+	<!-- div containing the buttons and form -->
+	<div class="top-box">
+		<div class="left-box">
+			<p class="btn-title">Click on a politician to see some GIFs...</p>
+			<div class="btn-display"></div>
+		</div>
+		<div class="right-box">
+			<form class="user-form">
+				<label for="entry-form" class="form-text">...or create a button for a new politician!</label></form>
+				<input type="text" class="entry-form" placeholder="Type a politician's name here"><br>
+				<input class="submit-btn" type="submit" value="Add to the list!">
+			</form>
+		</div>
+	</div>
+	<!-- div that displays the gifs -->
+	<div class="bottom-box">
+		<p class="search-title">GIF Display</p>
+		<div class="gif-display"></div>
+	</div>
+	<!-- link to JS -->
 	<script type="text/javascript" src="javascript/script.js"></script>
 </body>
 </html>
