@@ -1,2 +1,9 @@
 # giphy-search
-Use the GIHPY API to make a dynamic web page that populates with the gifs.
+
+Giphy API Search (Politi-GIF)
+
+Assignment #6 - due 7/31/17 - HTML/CSS/JS/JQuery/AJAX
+
+Objective: Using the Giphy API, create a dynamic site that makes an AJAX call to the Giphy API and returns an JSON object with URLs for the 10 most popular GIFs related to the submitted query.  Users can submit their own queries, or they can select from an array of saved search terms (I chose politicians for my homework).
+
+Grade: A+
